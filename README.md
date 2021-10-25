@@ -11,4 +11,14 @@ The application is hosted on http://localhost:8080/ by the default. All requests
 * /SetFrequency?Frequency=XXX                                                                               
 * /GetPath                                                                              
 * /SetPath?Path=XXX                                                                               
-* /GetImageOfMemory                                                                                           
+* /GetImageOfMemory       
+
+## How to run
+
+* First
+
+     `go get github.com/HarunBuyuktepe/go-minimal-cache`   
+* Second
+
+      `go run main.go router.go`
+      
